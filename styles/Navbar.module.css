@@ -1,0 +1,72 @@
+/** @format */
+
+.container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  position: sticky;
+  background: #d0492a;
+
+  z-index: 9000;
+  top: 0;
+}
+.callButton {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.callButton .image {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  margin-left: 10px;
+  color: #fff;
+}
+.info:first-child {
+  font-size: 12px;
+  font-weight: 500;
+}
+.info:last-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.list {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  /* gap: 3rem; */
+  padding: 0;
+  list-style: none;
+}
+.listItem {
+  margin: 0 30px;
+  font-weight: 50;
+}
+.cartImag {
+  position: relative;
+}
+.counter {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  cursor: pointer;
+}
